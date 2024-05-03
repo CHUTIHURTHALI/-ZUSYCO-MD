@@ -32,8 +32,8 @@ module.exports = {
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
-  WORK_TYPE : "public",
-  WORK_MODE : "onlygroups",
+  WORK_TYPE : "only me",
+  WORK_MODE : "onlychats",
   WORK_MODE_MESSAGE_SEND : false,
   CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
   STICKER_PACK : '[ ZUSYCO ]',
@@ -49,12 +49,12 @@ module.exports = {
   },
   READ : {
      ALL_MESSAGES : true,
-     ONLY_COMMANDS : false,
+     ONLY_COMMANDS : ttrue,
      STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
-  AUTO_REACT : true,
+  AUTO_REACT : false,
   OWNER_REACT : '🥰',
   AUTO_BGM : false,
   BGM : {
@@ -72,7 +72,7 @@ module.exports = {
     "thugs" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-thugs.mp3",
 
   },
-  AUTO_STICKER : true,
+  AUTO_STICKER : false,
   STICKERS : {
     "pit" : "https://i.ibb.co/NVLMQDP/pit.webp",
     "agei" : "https://i.ibb.co/yqk8QQ9/agei.webp",
